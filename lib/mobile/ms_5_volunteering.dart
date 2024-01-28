@@ -7,13 +7,13 @@ import '../widgets/container_banner.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class MS5Volunteering extends StatelessWidget {
-  const MS5Volunteering({Key? key}) : super(key: key);
+class MS5Media extends StatelessWidget {
+  const MS5Media({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      key: KeyHolders.volunteeringKey,
+      key: KeyHolders.mediaKey,
       color: AppThemeData.backgroundGrey,
       child: Padding(
         padding: const EdgeInsets.all(40.0),
@@ -21,26 +21,26 @@ class MS5Volunteering extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const FrameTitle(
-                title: DataValues.volunteeringTitle,
-                description: DataValues.volunteeringDescription),
+                title: DataValues.mediaTitle,
+                description: DataValues.mediaDescription),
             const SizedBox(height: 30.0),
             ContainerCard().type3(
-              image: 'flutterscope',
-              title: DataValues.volunteeringOrg1Title,
-              role: DataValues.volunteeringOrg1Role,
-              years: DataValues.volunteeringOrg1Years,
-              values: DataValues.volunteeringOrg1Vales,
+              image: 'insta',
+              title: DataValues.mediaOrg1Title,
+              role: DataValues.mediaOrg1Role,
+              years: DataValues.mediaOrg1Years,
+              values: DataValues.mediaOrg1Vales,
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
               isButtonEnabled: true,
             ),
             const SizedBox(height: 20.0),
             ContainerCard().type3(
-              image: 'mlsa',
-              title: DataValues.volunteeringOrg2Title,
-              role: DataValues.volunteeringOrg2Role,
-              years: DataValues.volunteeringOrg2Years,
-              values: DataValues.volunteeringOrg2Vales,
+              image: 'youtube',
+              title: DataValues.mediaOrg2Title,
+              role: DataValues.mediaOrg2Role,
+              years: DataValues.mediaOrg2Years,
+              values: DataValues.mediaOrg2Vales,
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
               isButtonEnabled: true,
@@ -49,12 +49,12 @@ class MS5Volunteering extends StatelessWidget {
             Center(
               child: ContainerBanner().type1(
                 isDesktop: true,
-                title1: DataValues.volunteeringBanner,
-                title2: DataValues.volunteeringBannerTitle,
-                description: DataValues.volunteeringBannerWeb,
+                title1: DataValues.mediaBanner,
+                title2: DataValues.mediaBannerTitle,
+                description: DataValues.mediaBannerWeb,
                 image: 'image',
-                message: 'Volunteering Profile',
-                url: DataValues.volunteeringURL,
+                message: 'media Profile',
+                url: DataValues.mediaURL,
               ),
             ),
           ],

@@ -29,7 +29,7 @@ class DS4Experience extends StatelessWidget {
               children: [
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'dileepabandara_dev',
+                    image: 'logo',
                     title: DataValues.experienceOrg1Title,
                     role: DataValues.experienceOrg1Role,
                     years: DataValues.experienceOrg1Years,
@@ -42,7 +42,7 @@ class DS4Experience extends StatelessWidget {
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'ddstechvira',
+                    image: 're',
                     title: DataValues.experienceOrg2Title,
                     role: DataValues.experienceOrg2Role,
                     years: DataValues.experienceOrg2Years,
@@ -54,17 +54,17 @@ class DS4Experience extends StatelessWidget {
                 ),
               ],
             ),
-            const SizedBox(height: 80.0),
-            Center(
-              child: ContainerBanner().type1(
-                  isDesktop: true,
-                  title1: DataValues.experienceBanner,
-                  title2: DataValues.experienceBannerTitle,
-                  description: DataValues.experienceBannerWeb,
-                  image: 'logo',
-                  message: 'View Toolkit',
-                  url: DataValues.toolkitURL),
-            ),
+            // const SizedBox(height: 80.0),
+            // Center(
+            //   child: ContainerBanner().type1(
+            //       isDesktop: true,
+            //       title1: DataValues.experienceBanner,
+            //       title2: DataValues.experienceBannerTitle,
+            //       description: DataValues.experienceBannerWeb,
+            //       image: 'logo',
+            //       message: 'View Toolkit',
+            //       url: DataValues.toolkitURL),
+            // ),
           ],
         ),
       ),

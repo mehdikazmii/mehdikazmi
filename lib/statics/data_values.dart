@@ -1,99 +1,90 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara';
-  static const String appNameLong = 'dileepabandara.dev';
+  static const String appName = 'Mehdi Kazmi';
+  static const String appNameLong = '@mehdiKazmi';
   static const String appDescription =
-      'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
-  static const String appDeveloper = 'Dileepa Bandara';
-  static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
-  static const String appVersion = '1.1.2';
+      'Hello there, I\'m Mehdi Kazmi . This is my personal website, which contains public information that anyone can find on the internet.';
+  static const String appDeveloper = 'Mehdi Kazmi';
+  static const String appPackage = 'mehdikazmi.dev';
+  static const String appVersion = '1.0.0';
   static const String appBuildNumber = '1';
 
   // External links
-  static Uri devURL = Uri.parse('https://dileepabandara.dev');
-  static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
-  static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
-  static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
-  static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
-  static Uri facebookURL = Uri.parse('https://facebook.com/0dileepabandara');
-  static Uri instagramURL = Uri.parse('https://instagram.com/_dileepabandara');
+  static Uri githubURL = Uri.parse('https://github.com/mehdikazmii');
+  static Uri linkedinURL =
+      Uri.parse('https://www.linkedin.com/in/mehdikazmii/');
+  static Uri twitterURL = Uri.parse('https://twitter.com/mehdikazmii');
+  static Uri instagramURL =
+      Uri.parse('https://www.instagram.com/i_mehdikazmi/');
   static Uri repoURL =
       Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
-  static Uri biographyURL = Uri.parse('https://biography.dileepabandara.dev');
-  static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
-  static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
-  static Uri volunteeringURL =
-      Uri.parse('https://volunteer.dileepabandara.dev');
-  static Uri technotesURL = Uri.parse('https://techdiary.dileepabandara.dev');
-  static Uri lateNightStudentURL = Uri.parse('https://blog.dileepabandara.dev');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
-  static const String headerName = 'Dileepa Bandara';
-  static const String headerTitle = 'Student | Developer | Volunteer';
+  static const String headerName = 'Mehdi Kazmi';
+  static const String headerTitle = 'Scientist | Developer  | Volunteer';
 
   // Navigation Bar
-  static const String navBarAboutMe = 'About Me';
+  static const String navBarAbout = 'About';
   static const String navBarEducation = 'Education';
   static const String navBarExperience = 'Experience';
-  static const String navBarVolunteering = 'Volunteering';
+  static const String navBarMedia = 'Media';
   static const String navBarTechNotes = 'TechNotes';
-  static const String navBarContactMe = 'Contact Me';
+  static const String navBarProjects = 'Projects';
+  static const String navBarConnect = 'Connect';
 
-  // About me
-  static const String aboutMeTitle = 'About Me';
-  static const String aboutMeDescription =
+  // About
+  static const String aboutTitle = 'About';
+  static const String aboutDescription =
       'This website includes my public details, which anyone can find on the internet. So if you are looking for my personal information, such as my bio, education, experience, and other things that may make you wonder, feel free to scroll up and down to find out about me.';
-  static const String aboutMeBiographyTitle = 'Biography';
-  static const String aboutMeBiographyDescription =
-      'Hi there! I\'m a computing student, solution developer, and community volunteer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. '
+  static const String aboutBiographyTitle = 'Biography';
+  static const String aboutBiographyDescription =
+      'Hey there! I\'m a computer scientist, solution developer, and community volunteer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. '
       'Because of that, I\'m always looking to learn new things and apply them to whatever I\'m doing. '
       'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I started my career as a techie. '
       'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
-  static const String aboutMeFullNameTitle = 'Full Name';
-  static const String aboutMeFullNameDescription =
-      'Jayasundara Mudiyanselage Dileepa Lakmal Bandara';
-  static const String aboutMeNwITitle = 'Name with Initials';
-  static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
-  static const String aboutMeFnLTitle = 'First and Last Name';
-  static const String aboutMeFnLDescription = 'Dileepa Bandara';
-  static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'July 24, 1997';
-  static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
+  static const String aboutFullNameTitle = 'Full Name';
+  static const String aboutFullNameDescription = 'Syed Murtajiz Mehdi Kazmi';
+  static const String aboutNwITitle = 'Name with Initials';
+  static const String aboutNwIDescription = 'S.M Mehdi Kazmi';
+  static const String aboutFnLTitle = 'First and Last Name';
+  static const String aboutFnLDescription = 'Mehdi Kazmi';
+  static const String aboutDobTitle = 'Birthday';
+  static const String aboutDobDescription = 'March 1, 2001';
+  static const String aboutLanguageTitle = 'Languages';
+  static const String aboutLanguageDescription = 'Urdu (Native)\n'
       'English (Professional)';
-  static const String aboutMeNationalityTitle = 'Nationality';
-  static const String aboutMeNationalityDescription = 'Sri Lankan';
-  static const String aboutMeGenderTitle = 'Gender';
-  static const String aboutMeGenderDescription = 'Male (He/Him/His)';
-  static const String aboutMeLocationTitle = 'Current Locations';
-  static const String aboutMeLocationDescription =
-      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
-  static const String aboutMeWorkDomainTitle = 'Working Domain';
-  static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
+  static const String aboutNationalityTitle = 'Nationality';
+  static const String aboutNationalityDescription = 'Pakistani';
+  static const String aboutGenderTitle = 'Gender';
+  static const String aboutGenderDescription = 'Male (He/Him/His)';
+  static const String aboutLocationTitle = 'Current Locations';
+  static const String aboutLocationDescription =
+      'Lahore, Pakistan\nIslamabad, Pakistan';
+  static const String aboutWorkDomainTitle = 'Working Domain';
+  static const String aboutWorkDomainDescription =
+      // 'dileepabandara.dev\n'
       '08:00 - 18:00 (GMT+5:30)';
-  static const String aboutMeStudentTitle = 'Computing Student';
-  static const String aboutMeStudentDescription =
-      'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
-  static const String aboutMeDeveloperTitle = 'Solution Developer';
-  static const String aboutMeDeveloperDescription =
-      'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside app development, as well as design and develop structures such as UI/UX, graphics, data management, and other analytical methods with a focus on business points.';
-  static const String aboutMeVolunteerTitle = 'Community Volunteer';
-  static const String aboutMeVolunteerDescription =
-      'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
-  static const String aboutMeHobbiesTitle = 'Hobbies';
-  static const String aboutMeHobbiesDescription = 'Learning New Things\n'
-      'Watching Movies & TV Shows\n'
-      'Listening to Music & Dancing\n'
-      'Content Creation';
-  static const String aboutMeGoalTitle = 'Goal';
-  static const String aboutMeGoalDescription =
+  static const String aboutStudentTitle = 'Computer Scientist';
+  static const String aboutStudentDescription =
+      "I graduated in Computer Science from Comsats University Islamabad. Over the years, I've gained profound insights into computer systems, exploring complex technical aspects. My journey has involved refining problem-solving, critical thinking, and analytical research skills.";
+  static const String aboutDeveloperTitle = 'Solution Developer';
+  static const String aboutDeveloperDescription =
+      'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside mobile app development(android and ios), as well as web-app development with a focus on business points.';
+  static const String aboutVolunteerTitle = 'Community Volunteer';
+  static const String aboutVolunteerDescription =
+      'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. media has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by media, I would love to help others reach their life goals.';
+  static const String aboutHobbiesTitle = 'Hobbies';
+  static const String aboutHobbiesDescription = 'Content Creation\n'
+      // 'Learning New Things\n'
+      'Movies & TV Shows\n'
+      'Football & Badminton\n';
+  static const String aboutGoalTitle = 'Goal';
+  static const String aboutGoalDescription =
       'To grow personally and professionally, while making a positive impact on the community.';
-  static const String aboutMeBanner = 'You can find my';
-  static const String aboutMeBannerTitle = 'public profiles';
-  static const String aboutMeBannerWeb =
+  static const String aboutBanner = 'You can find my';
+  static const String aboutBannerTitle = 'public profiles';
+  static const String aboutBannerWeb =
       'Visit profile.dileepabandara.dev to find all my public profiles.';
 
   // Education
@@ -137,15 +128,15 @@ class DataValues {
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
       'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Dileepa Bandara';
+  static const String experienceOrg1Title = 'Mehdi Kazmi';
   static const String experienceOrg1Role = 'Solution Developer';
-  static const String experienceOrg1Years = 'June 2019 - June 2022';
+  static const String experienceOrg1Years = 'September 2019 - Feb 2023';
   static const String experienceOrg1Vales =
-      'Mobile, Desktop, Web development, UI UX, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DDS Techvira';
+      'Mobile, Desktop, Web development, UI UX & Tech Support Assistant.';
+  static const String experienceOrg2Title = 'Rezolvat';
   static const String experienceOrg2Role =
       'Trainee Software Developer (Flutter)';
-  static const String experienceOrg2Years = 'May 2021 - November 2021';
+  static const String experienceOrg2Years = 'May 2023 - November 2023';
   static const String experienceOrg2Vales =
       'Android, Flutter, Dart, Firebase, Git, REST API, JSON Parsing & UI UX Designing.';
   static const String experienceBanner = 'Find my working';
@@ -153,52 +144,68 @@ class DataValues {
   static const String experienceBannerWeb =
       'Visit toolkit.dileepabandara.dev for more details >>';
 
-  // Volunteering
-  static const String volunteeringTitle = 'Volunteering';
-  static const String volunteeringDescription =
-      'Volunteering is an amazing way for me to give back to communities and make a difference. It\'s also a terrific opportunity to meet new people, learn new skills, and gain valuable experience. I do volunteer work for many different social and technical organizations. These are more focused organizations where I am presently volunteering.';
-  static const String volunteeringOrg1Title = 'FlutterScope';
-  static const String volunteeringOrg1Role = 'Content Creator';
-  static const String volunteeringOrg1Years = 'January 2022 - Present';
-  static const String volunteeringOrg1Vales =
-      'FlutterScope was founded to disseminate knowledge about Flutter and related technologies. This community is an educational group that is not affiliated with or otherwise sponsored by Google LLC.';
-  static const String volunteeringOrg2Title = 'Microsoft';
-  static const String volunteeringOrg2Role =
-      'Microsoft Learn Student Ambassador';
-  static const String volunteeringOrg2Years = 'October 2022 - Present';
-  static const String volunteeringOrg2Vales =
-      'Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.';
-  static const String volunteeringBanner = 'Find more about my';
-  static const String volunteeringBannerTitle = 'volunteering';
-  static const String volunteeringBannerWeb =
+  // media
+  static const String mediaTitle = 'Media';
+  static const String mediaDescription =
+      'media is an amazing way for me to give back to communities and make a difference. It\'s also a terrific opportunity to meet new people, learn new skills, and gain valuable experience. I do volunteer work for many different social and technical organizations. These are more focused organizations where I am presently media.';
+  static const String mediaOrg1Title = 'Instagram';
+  static const String mediaOrg1Role = 'Content Creator';
+  static const String mediaOrg1Years = 'December 2023 - Present';
+  static const String mediaOrg1Vales =
+      'Content on instagram helps every developer with short and easy to learn snippets. It attracts non developers to development & coding.';
+  static const String mediaOrg2Title = 'Youtube';
+  static const String mediaOrg2Role = '';
+  static const String mediaOrg2Years = 'January 2024 - Present';
+  static const String mediaOrg2Vales =
+      'Youtube is another platform where i try to teach techies about new & cool tricks related to develelopment';
+  static const String mediaBanner = 'Find more about my';
+  static const String mediaBannerTitle = 'media';
+  static const String mediaBannerWeb =
       'Visit volunteer.dileepabandara.dev for more details >>';
+
+  // Projects
+  static const String projectsTitle = 'Projects';
+  static const String projectsDescription =
+      'I love creating content as a hobby! It\'s a fantastic outlet for my creativity, and I enjoy expressing myself and connecting with people who share my interests. I have a blog where I can share my written ideas, and a vlog where my voice can be heard. It\'s a great way to connect with others and share my passion for technology and all things digital. Join me on this exciting journey of exploration and discovery in the tech world!';
+  static const String projectsOrg1Title = 'Projects by Mehdi | Blog';
+  static const String projectsOrg1Role =
+      'Embark on a journey of discovery and exploration.';
+  static const String projectsOrg1Years = '2023 March - Present';
+  static const String projectsOrg1Vales =
+      'Welcome to my tech blog, where I share my tech notes! As a passionate tech enthusiast, I\'m always on the lookout for the latest and most innovative advancements in the industry, and I can\'t wait to share my findings with you. In this space, we\'ll dive deep into a variety of exciting tech topics, ranging from revolutionary software solutions to groundbreaking ideas and futuristic concepts. Along the way, I\'ll share my personal experiences and provide insights on how these developments impact our world. Join me on this exciting journey of discovery and exploration in the dynamic world of technology through this blog!';
+  static const String projectsOrg2Title = 'Projects by Mehdi | Vlog';
+  static const String projectsOrg2Role =
+      'Exploring the frontiers of the computer world.';
+  static const String projectsOrg2Years = 'Coming Soon';
+  static const String projectsOrg2Vales =
+      'Welcome to my vlog, where we\'ll be exploring the fascinating world of technology! Technology is constantly evolving and transforming the world we live in, creating new paths and opportunities for us to explore. In this vlog, I\'ll be sharing my personal journey of discovery and exploration in the tech world, as I learn about the latest advancements and emerging trends in the industry. From cutting-edge software and innovative solutions to groundbreaking ideas and futuristic concepts, we\'ll cover it all in this vlog. So join me on this exciting journey as we discover the ever-changing world of technology together!';
 
   // TechNotes
   static const String technotesTitle = 'TechNotes';
   static const String technotesDescription =
       'I love creating content as a hobby! It\'s a fantastic outlet for my creativity, and I enjoy expressing myself and connecting with people who share my interests. I have a blog where I can share my written ideas, and a vlog where my voice can be heard. It\'s a great way to connect with others and share my passion for technology and all things digital. Join me on this exciting journey of exploration and discovery in the tech world!';
-  static const String technotesOrg1Title = 'TechNotes by Dileepa | Blog';
+  static const String technotesOrg1Title = 'TechNotes by Mehdi | Blog';
   static const String technotesOrg1Role =
       'Embark on a journey of discovery and exploration.';
   static const String technotesOrg1Years = '2023 March - Present';
   static const String technotesOrg1Vales =
       'Welcome to my tech blog, where I share my tech notes! As a passionate tech enthusiast, I\'m always on the lookout for the latest and most innovative advancements in the industry, and I can\'t wait to share my findings with you. In this space, we\'ll dive deep into a variety of exciting tech topics, ranging from revolutionary software solutions to groundbreaking ideas and futuristic concepts. Along the way, I\'ll share my personal experiences and provide insights on how these developments impact our world. Join me on this exciting journey of discovery and exploration in the dynamic world of technology through this blog!';
-  static const String technotesOrg2Title = 'TechNotes by Dileepa | Vlog';
+  static const String technotesOrg2Title = 'TechNotes by Mehdi | Vlog';
   static const String technotesOrg2Role =
       'Exploring the frontiers of the computer world.';
   static const String technotesOrg2Years = 'Coming Soon';
   static const String technotesOrg2Vales =
       'Welcome to my vlog, where we\'ll be exploring the fascinating world of technology! Technology is constantly evolving and transforming the world we live in, creating new paths and opportunities for us to explore. In this vlog, I\'ll be sharing my personal journey of discovery and exploration in the tech world, as I learn about the latest advancements and emerging trends in the industry. From cutting-edge software and innovative solutions to groundbreaking ideas and futuristic concepts, we\'ll cover it all in this vlog. So join me on this exciting journey as we discover the ever-changing world of technology together!';
-  // Contact
-  static const String contactTitle = 'Contact';
-  static const String contactDescription =
+  // Connect
+  static const String connectTitle = 'Connect';
+  static const String connectDescription =
       'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
-  static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String connectBanner = 'Send me an email at';
+  static const String connectEmail = 'mehdiikazmiii@gmail.com';
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Copyright ©2024 Mehdi Kazmi. All Rights Reserved.";
 
-  static const String builtWith = "Built with Flutter and GitHub Pages.";
+  static const String builtWith = "Built with Flutter.";
 }

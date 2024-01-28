@@ -24,7 +24,7 @@ class MS3Education extends StatelessWidget {
                 description: DataValues.educationDescription),
             const SizedBox(height: 30.0),
             ContainerCard().type2(
-              image: 'mms',
+              image: 'GS',
               title: DataValues.educationOrg1Title,
               values: [
                 DataValues.educationOrg1Course1Name,
@@ -42,7 +42,7 @@ class MS3Education extends StatelessWidget {
             ),
             const SizedBox(height: 20.0),
             ContainerCard().type2(
-              image: 'nibm',
+              image: 'comsats',
               title: DataValues.educationOrg2Title,
               values: [
                 DataValues.educationOrg2Course1Name,

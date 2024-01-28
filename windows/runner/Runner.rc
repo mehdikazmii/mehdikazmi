@@ -89,13 +89,13 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "dev.dileepabandara" "\0"
-            VALUE "FileDescription", "dileepabandara_dev" "\0"
+            VALUE "CompanyName", "mehdikazmi.dev" "\0"
+            VALUE "FileDescription", "mehdikazmi.dev" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "dileepabandara_dev" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 dev.dileepabandara. All rights reserved." "\0"
-            VALUE "OriginalFilename", "dileepabandara_dev.exe" "\0"
-            VALUE "ProductName", "dileepabandara_dev" "\0"
+            VALUE "InternalName", "mehdikazmi.dev" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 mehdikazmi.dev. All rights reserved." "\0"
+            VALUE "OriginalFilename", "mehdikazmi.dev.exe" "\0"
+            VALUE "ProductName", "mehdikazmi.dev" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

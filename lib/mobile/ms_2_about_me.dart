@@ -9,8 +9,8 @@ import '../widgets/container_card.dart';
 import '../widgets/container_banner.dart';
 import '../widgets/frame_title.dart';
 
-class MS2AboutMe extends StatelessWidget {
-  const MS2AboutMe({Key? key}) : super(key: key);
+class MS2About extends StatelessWidget {
+  const MS2About({Key? key}) : super(key: key);
 
   Widget bio(BuildContext context) {
     return SizedBox(
@@ -19,8 +19,8 @@ class MS2AboutMe extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           TextPairs().type1(
-            title: DataValues.aboutMeBiographyTitle,
-            description: DataValues.aboutMeBiographyDescription,
+            title: DataValues.aboutBiographyTitle,
+            description: DataValues.aboutBiographyDescription,
           ),
           const SizedBox(height: 20.0),
           ButtonTextSmall(
@@ -30,58 +30,58 @@ class MS2AboutMe extends StatelessWidget {
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeFullNameTitle,
-            description: DataValues.aboutMeFullNameDescription,
+            title: DataValues.aboutFullNameTitle,
+            description: DataValues.aboutFullNameDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeNwITitle,
-            description: DataValues.aboutMeNwIDescription,
+            title: DataValues.aboutNwITitle,
+            description: DataValues.aboutNwIDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeFnLTitle,
-            description: DataValues.aboutMeFnLDescription,
+            title: DataValues.aboutFnLTitle,
+            description: DataValues.aboutFnLDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeGenderTitle,
-            description: DataValues.aboutMeGenderDescription,
+            title: DataValues.aboutGenderTitle,
+            description: DataValues.aboutGenderDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeDobTitle,
-            description: DataValues.aboutMeDobDescription,
+            title: DataValues.aboutDobTitle,
+            description: DataValues.aboutDobDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeLanguageTitle,
-            description: DataValues.aboutMeLanguageDescription,
+            title: DataValues.aboutLanguageTitle,
+            description: DataValues.aboutLanguageDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeNationalityTitle,
-            description: DataValues.aboutMeNationalityDescription,
+            title: DataValues.aboutNationalityTitle,
+            description: DataValues.aboutNationalityDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeLocationTitle,
-            description: DataValues.aboutMeLocationDescription,
+            title: DataValues.aboutLocationTitle,
+            description: DataValues.aboutLocationDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeWorkDomainTitle,
-            description: DataValues.aboutMeWorkDomainDescription,
+            title: DataValues.aboutWorkDomainTitle,
+            description: DataValues.aboutWorkDomainDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeHobbiesTitle,
-            description: DataValues.aboutMeHobbiesDescription,
+            title: DataValues.aboutHobbiesTitle,
+            description: DataValues.aboutHobbiesDescription,
           ),
           const SizedBox(height: 30.0),
           TextPairs().type1(
-            title: DataValues.aboutMeGoalTitle,
-            description: DataValues.aboutMeGoalDescription,
+            title: DataValues.aboutGoalTitle,
+            description: DataValues.aboutGoalDescription,
           ),
         ],
       ),
@@ -95,24 +95,24 @@ class MS2AboutMe extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           ContainerCard().type1(
-            title: DataValues.aboutMeStudentTitle,
-            description: DataValues.aboutMeStudentDescription,
+            title: DataValues.aboutStudentTitle,
+            description: DataValues.aboutStudentDescription,
             image: 'assets/icons/student.png',
             message: DataValues.linkedinURL.toString(),
             url: DataValues.linkedinURL,
           ),
           const SizedBox(height: 20.0),
           ContainerCard().type1(
-            title: DataValues.aboutMeDeveloperTitle,
-            description: DataValues.aboutMeDeveloperDescription,
+            title: DataValues.aboutDeveloperTitle,
+            description: DataValues.aboutDeveloperDescription,
             image: 'assets/icons/developer.png',
             message: DataValues.linkedinURL.toString(),
             url: DataValues.linkedinURL,
           ),
           const SizedBox(height: 20.0),
           ContainerCard().type1(
-            title: DataValues.aboutMeVolunteerTitle,
-            description: DataValues.aboutMeVolunteerDescription,
+            title: DataValues.aboutVolunteerTitle,
+            description: DataValues.aboutVolunteerDescription,
             image: 'assets/icons/volunteer.png',
             message: DataValues.linkedinURL.toString(),
             url: DataValues.linkedinURL,
@@ -133,8 +133,8 @@ class MS2AboutMe extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const FrameTitle(
-                title: DataValues.aboutMeTitle,
-                description: DataValues.aboutMeDescription),
+                title: DataValues.aboutTitle,
+                description: DataValues.aboutDescription),
             const SizedBox(height: 40.0),
             bio(context),
             const SizedBox(height: 40.0),
@@ -143,9 +143,9 @@ class MS2AboutMe extends StatelessWidget {
             Center(
               child: ContainerBanner().type1(
                   isDesktop: true,
-                  title1: DataValues.aboutMeBanner,
-                  title2: DataValues.aboutMeBannerTitle,
-                  description: DataValues.aboutMeBannerWeb,
+                  title1: DataValues.aboutBanner,
+                  title2: DataValues.aboutBannerTitle,
+                  description: DataValues.aboutBannerWeb,
                   image: 'logo',
                   message: 'View Profiles',
                   url: DataValues.profilesURL),

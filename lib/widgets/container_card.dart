@@ -36,7 +36,14 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset(image, height: 70.0, width: 70.0),
+                Container(
+                    alignment: Alignment.center,
+                    height: 80,
+                    width: 80,
+                    decoration: BoxDecoration(
+                        color: AppThemeData.secondaryColor,
+                        borderRadius: BorderRadius.circular(20)),
+                    child: Image.asset(image, height: 50.0, width: 50.0)),
                 const SizedBox(height: 20.0),
                 SelectableText(
                   title,
@@ -94,7 +101,11 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset('assets/images/$image.png', height: 70.0),
+                Image.asset(
+                  'assets/images/$image.png',
+                  height: 55.0,
+                  width: 55.0,
+                ),
                 const SizedBox(height: 20.0),
                 SelectableText(title,
                     style: TextStyle(
@@ -128,11 +139,11 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 20.0),
-            ButtonTextSmall(
-              text: 'View More >>',
-              message: message,
-              url: url,
-            ),
+            // ButtonTextSmall(
+            //   text: 'View More >>',
+            //   message: message,
+            //   url: url,
+            // ),
           ],
         ),
       ),
@@ -171,7 +182,8 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset('assets/images/$image.png', height: 70.0),
+                Image.asset('assets/images/$image.png',
+                    height: 55.0, width: 55.0),
                 const SizedBox(height: 20.0),
                 SelectableText(title,
                     style: TextStyle(
@@ -191,16 +203,16 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 20.0),
-            isButtonEnabled
-                ? ButtonTextSmall(
-                    text: 'View More >>',
-                    message: message,
-                    url: url,
-                  )
-                : Text(
-                    'See you soon with the link :)',
-                    style: AppThemeData.darkTheme.textTheme.labelMedium,
-                  ),
+            // isButtonEnabled
+            //     ? ButtonTextSmall(
+            //         text: 'View More >>',
+            //         message: message,
+            //         url: url,
+            //       )
+            //     : Text(
+            //         'See you soon with the link :)',
+            //         style: AppThemeData.darkTheme.textTheme.labelMedium,
+            //       ),
           ],
         ),
       ),

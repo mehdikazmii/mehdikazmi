@@ -12,12 +12,12 @@ class NavBar {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         ButtonTextLarge(
-          text: DataValues.navBarAboutMe,
+          text: DataValues.navBarAbout,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.aboutKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to ${DataValues.navBarAboutMe} section',
+          message: 'Go to ${DataValues.navBarAbout} section',
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
@@ -39,12 +39,12 @@ class NavBar {
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
-          text: DataValues.navBarVolunteering,
+          text: DataValues.navBarProjects,
           onPressed: () => Scrollable.ensureVisible(
-            KeyHolders.volunteeringKey.currentContext!,
+            KeyHolders.projectsKey.currentContext!,
             duration: const Duration(milliseconds: 1000),
           ),
-          message: 'Go to ${DataValues.navBarVolunteering} section',
+          message: 'Go to ${DataValues.navBarProjects} section',
         ),
         const SizedBox(width: 20.0),
         ButtonTextLarge(
@@ -56,14 +56,23 @@ class NavBar {
           message: 'Go to ${DataValues.navBarTechNotes} section',
         ),
         const SizedBox(width: 20.0),
+        ButtonTextLarge(
+          text: DataValues.navBarMedia,
+          onPressed: () => Scrollable.ensureVisible(
+            KeyHolders.mediaKey.currentContext!,
+            duration: const Duration(milliseconds: 1000),
+          ),
+          message: 'Go to ${DataValues.navBarMedia} section',
+        ),
+        const SizedBox(width: 20.0),
         ButtonRectangle(
-            name: DataValues.navBarContactMe,
+            name: DataValues.navBarConnect,
             onPressed: () => Scrollable.ensureVisible(
-                  KeyHolders.contactKey.currentContext!,
+                  KeyHolders.connectKey.currentContext!,
                   duration: const Duration(milliseconds: 1000),
                 ),
             color: AppThemeData.buttonPrimary,
-            message: 'Go to ${DataValues.navBarContactMe} section'),
+            message: 'Go to ${DataValues.navBarConnect} section'),
       ],
     );
   }
@@ -99,12 +108,12 @@ class NavBar {
           miniHeader(),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: DataValues.navBarAboutMe,
+            text: DataValues.navBarAbout,
             onPressed: () => Scrollable.ensureVisible(
               KeyHolders.aboutKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to ${DataValues.navBarAboutMe} section',
+            message: 'Go to ${DataValues.navBarAbout} section',
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
@@ -126,12 +135,12 @@ class NavBar {
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
-            text: DataValues.navBarVolunteering,
+            text: DataValues.navBarProjects,
             onPressed: () => Scrollable.ensureVisible(
-              KeyHolders.volunteeringKey.currentContext!,
+              KeyHolders.projectsKey.currentContext!,
               duration: const Duration(milliseconds: 1000),
             ),
-            message: 'Go to ${DataValues.navBarVolunteering} section',
+            message: 'Go to ${DataValues.navBarProjects} section',
           ),
           const SizedBox(height: 20.0),
           ButtonTextLarge(
@@ -143,14 +152,23 @@ class NavBar {
             message: 'Go to ${DataValues.navBarTechNotes} section',
           ),
           const SizedBox(height: 20.0),
+          ButtonTextLarge(
+            text: DataValues.navBarMedia,
+            onPressed: () => Scrollable.ensureVisible(
+              KeyHolders.mediaKey.currentContext!,
+              duration: const Duration(milliseconds: 1000),
+            ),
+            message: 'Go to ${DataValues.navBarMedia} section',
+          ),
+          const SizedBox(height: 20.0),
           ButtonRectangle(
-              name: DataValues.navBarContactMe,
+              name: DataValues.navBarConnect,
               onPressed: () => Scrollable.ensureVisible(
-                    KeyHolders.contactKey.currentContext!,
+                    KeyHolders.connectKey.currentContext!,
                     duration: const Duration(milliseconds: 1000),
                   ),
               color: AppThemeData.buttonPrimary,
-              message: 'Go to ${DataValues.navBarContactMe} section'),
+              message: 'Go to ${DataValues.navBarConnect} section'),
         ],
       ),
     );

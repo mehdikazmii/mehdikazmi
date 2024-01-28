@@ -1,4 +1,4 @@
-package dev.dileepabandara.dileepabandara_dev
+package mehdikazmi.dev
 
 import io.flutter.embedding.android.FlutterActivity
 

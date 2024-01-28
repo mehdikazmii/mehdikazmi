@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
-
+import 'package:mehdi/desktop/ds_7_technotes.dart';
+import 'package:mehdi/desktop/ds_8_connect.dart';
+import 'package:mehdi/desktop/ds_9_footer.dart';
+import 'package:mehdi/mobile/ms_6_projects.dart';
+import 'package:mehdi/mobile/ms_7_technotes.dart';
+import 'package:mehdi/mobile/ms_8_connect.dart';
+import 'desktop/ds_6_projects.dart';
 import 'theme/responsive_screen_provider.dart';
 import 'theme/app_theme.dart';
 import 'widgets/nav_bar.dart';
@@ -8,17 +14,11 @@ import 'desktop/ds_2_about_me.dart';
 import 'desktop/ds_3_education.dart';
 import 'desktop/ds_4_experience.dart';
 import 'desktop/ds_5_volunteering.dart';
-import 'desktop/ds_6_technotes.dart';
-import 'desktop/ds_7_contact.dart';
-import 'desktop/ds_8_footer.dart';
 import 'mobile/ms_1_header.dart';
 import 'mobile/ms_2_about_me.dart';
 import 'mobile/ms_3_education.dart';
 import 'mobile/ms_4_experience.dart';
 import 'mobile/ms_5_volunteering.dart';
-import 'mobile/ms_6_technotes.dart';
-import 'mobile/ms_7_contact.dart';
-import 'mobile/ms_8_footer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dileepa Bandara',
+      title: 'Mehdi Kazmi',
       debugShowCheckedModeBanner: false,
       theme: AppThemeData.darkTheme,
       home: const HomePage(),
@@ -88,13 +88,14 @@ class _HomePageState extends State<HomePage> {
         physics: const ClampingScrollPhysics(),
         children: const [
           DS1Header(),
-          DS2AboutMe(),
+          DS2About(),
           DS3Education(),
           DS4Experience(),
-          DS5Volunteering(),
-          DS6TechNotes(),
-          DS7Contact(),
-          DS8Footer(),
+          DS5Media(),
+          DS6Projects(),
+          DS7Technotes(),
+          DS8Connect(),
+          DS9Footer(),
         ],
       );
     }
@@ -105,13 +106,14 @@ class _HomePageState extends State<HomePage> {
         physics: const ClampingScrollPhysics(),
         children: const [
           MS1Header(),
-          MS2AboutMe(),
+          MS2About(),
           MS3Education(),
           MS4Experience(),
-          MS5Volunteering(),
-          MS6TechNotes(),
-          MS7Contact(),
-          MS8Footer(),
+          MS5Media(),
+          MS6Projects(),
+          MS7Technotes(),
+          MS8Connect(),
+          DS9Footer(),
         ],
       );
     }

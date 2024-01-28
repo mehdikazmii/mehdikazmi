@@ -9,8 +9,9 @@ class KeyHolders {
   static final GlobalKey aboutKey = GlobalKey();
   static final GlobalKey educationKey = GlobalKey();
   static final GlobalKey experienceKey = GlobalKey();
-  static final GlobalKey volunteeringKey = GlobalKey();
+  static final GlobalKey mediaKey = GlobalKey();
   static final GlobalKey technotesKey = GlobalKey();
-  static final GlobalKey contactKey = GlobalKey();
+  static final GlobalKey projectsKey = GlobalKey();
+  static final GlobalKey connectKey = GlobalKey();
   static final GlobalKey footerKey = GlobalKey();
 }

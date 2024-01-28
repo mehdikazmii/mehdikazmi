@@ -1,5 +1,5 @@
-import 'package:dileepabandara_dev/theme/responsive_screen_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:mehdi/theme/responsive_screen_provider.dart';
 
 class FrameTitle extends StatelessWidget {
   const FrameTitle({Key? key, required this.title, required this.description})

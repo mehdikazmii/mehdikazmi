@@ -6,13 +6,13 @@ import '../theme/app_theme.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class MS6TechNotes extends StatelessWidget {
-  const MS6TechNotes({Key? key}) : super(key: key);
+class MS6Projects extends StatelessWidget {
+  const MS6Projects({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      key: KeyHolders.technotesKey,
+      key: KeyHolders.projectsKey,
       color: AppThemeData.backgroundGrey,
       child: Padding(
         padding: const EdgeInsets.all(40.0),
@@ -20,15 +20,15 @@ class MS6TechNotes extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const FrameTitle(
-                title: DataValues.technotesTitle,
-                description: DataValues.technotesDescription),
+                title: DataValues.projectsTitle,
+                description: DataValues.projectsDescription),
             const SizedBox(height: 30.0),
             ContainerCard().type3(
               image: 'logo',
-              title: DataValues.technotesOrg1Title,
-              role: DataValues.technotesOrg1Role,
-              years: DataValues.technotesOrg1Years,
-              values: DataValues.technotesOrg1Vales,
+              title: DataValues.projectsOrg1Title,
+              role: DataValues.projectsOrg1Role,
+              years: DataValues.projectsOrg1Years,
+              values: DataValues.projectsOrg1Vales,
               message: DataValues.lateNightStudentURL.toString(),
               url: DataValues.lateNightStudentURL,
               isButtonEnabled: true,
@@ -36,12 +36,12 @@ class MS6TechNotes extends StatelessWidget {
             const SizedBox(height: 20.0),
             ContainerCard().type3(
               image: 'logo',
-              title: DataValues.technotesOrg2Title,
-              role: DataValues.technotesOrg2Role,
-              years: DataValues.technotesOrg2Years,
-              values: DataValues.technotesOrg2Vales,
-              message: DataValues.technotesURL.toString(),
-              url: DataValues.technotesURL,
+              title: DataValues.projectsOrg2Title,
+              role: DataValues.projectsOrg2Role,
+              years: DataValues.projectsOrg2Years,
+              values: DataValues.projectsOrg2Vales,
+              message: DataValues.projectsURL.toString(),
+              url: DataValues.projectsURL,
               isButtonEnabled: true,
             ),
           ],
