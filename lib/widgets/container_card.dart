@@ -61,11 +61,11 @@ class ContainerCard {
             SelectableText(description,
                 style: AppThemeData.darkTheme.textTheme.labelLarge),
             const SizedBox(height: 20.0),
-            // ButtonTextSmall(
-            //   text: 'View More >>',
-            //   message: message,
-            //   url: url,
-            // ),
+            ButtonTextSmall(
+              text: 'View More >>',
+              message: message,
+              url: url,
+            ),
           ],
         ),
       ),
@@ -139,11 +139,11 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 20.0),
-            // ButtonTextSmall(
-            //   text: 'View More >>',
-            //   message: message,
-            //   url: url,
-            // ),
+            ButtonTextSmall(
+              text: 'Institute >>',
+              message: message,
+              url: url,
+            ),
           ],
         ),
       ),
@@ -203,16 +203,16 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 20.0),
-            // isButtonEnabled
-            //     ? ButtonTextSmall(
-            //         text: 'View More >>',
-            //         message: message,
-            //         url: url,
-            //       )
-            //     : Text(
-            //         'See you soon with the link :)',
-            //         style: AppThemeData.darkTheme.textTheme.labelMedium,
-            //       ),
+            isButtonEnabled
+                ? ButtonTextSmall(
+                    text: 'View More >>',
+                    message: message,
+                    url: url,
+                  )
+                : Text(
+                    'See you soon with the link :)',
+                    style: AppThemeData.darkTheme.textTheme.labelMedium,
+                  ),
           ],
         ),
       ),

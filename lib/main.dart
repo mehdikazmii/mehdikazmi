@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:mehdi/desktop/ds_7_technotes.dart';
 import 'package:mehdi/desktop/ds_8_connect.dart';
 import 'package:mehdi/desktop/ds_9_footer.dart';
-import 'package:mehdi/mobile/ms_6_projects.dart';
-import 'package:mehdi/mobile/ms_7_technotes.dart';
 import 'package:mehdi/mobile/ms_8_connect.dart';
-import 'desktop/ds_6_projects.dart';
+import 'desktop/ds_5_projects.dart';
+import 'desktop/ds_6_technotes.dart';
+import 'desktop/ds_7_media.dart';
+import 'mobile/ms_5_projects.dart';
+import 'mobile/ms_6_technotes.dart';
+import 'mobile/ms_7_media.dart';
 import 'theme/responsive_screen_provider.dart';
 import 'theme/app_theme.dart';
 import 'widgets/nav_bar.dart';
@@ -13,12 +15,10 @@ import 'desktop/ds_1_header.dart';
 import 'desktop/ds_2_about_me.dart';
 import 'desktop/ds_3_education.dart';
 import 'desktop/ds_4_experience.dart';
-import 'desktop/ds_5_volunteering.dart';
 import 'mobile/ms_1_header.dart';
 import 'mobile/ms_2_about_me.dart';
 import 'mobile/ms_3_education.dart';
 import 'mobile/ms_4_experience.dart';
-import 'mobile/ms_5_volunteering.dart';
 
 void main() {
   runApp(const MyApp());
@@ -91,9 +91,9 @@ class _HomePageState extends State<HomePage> {
           DS2About(),
           DS3Education(),
           DS4Experience(),
-          DS5Media(),
-          DS6Projects(),
-          DS7Technotes(),
+          DS5Projects(),
+          DS6Technotes(),
+          DS7Media(),
           DS8Connect(),
           DS9Footer(),
         ],
@@ -109,9 +109,9 @@ class _HomePageState extends State<HomePage> {
           MS2About(),
           MS3Education(),
           MS4Experience(),
-          MS5Media(),
-          MS6Projects(),
-          MS7Technotes(),
+          MS5Projects(),
+          MS6Technotes(),
+          MS7Media(),
           MS8Connect(),
           DS9Footer(),
         ],

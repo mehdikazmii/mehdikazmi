@@ -16,8 +16,19 @@ class DataValues {
   static Uri twitterURL = Uri.parse('https://twitter.com/mehdikazmii');
   static Uri instagramURL =
       Uri.parse('https://www.instagram.com/i_mehdikazmi/');
-  static Uri repoURL =
-      Uri.parse('https://github.com/dileepabandara/dileepabandara.dev');
+  static Uri repoURL = Uri.parse('https://github.com/mehdikazmii/mehdikazmi');
+  static Uri schoolUrl = Uri.parse('https://www.facebook.com/GSSDGK/');
+  static Uri universityUrl = Uri.parse('https://www.comsats.edu.pk');
+  static Uri rezolvatUrl = Uri.parse('http://www.rezolvat.com');
+
+  //dummy Urls
+  static Uri profilesURL = Uri.parse('https://google.com/');
+  static Uri lateNightStudentURL = Uri.parse('https://google.com/');
+  static Uri projectsURL = Uri.parse('https://google.com/');
+  static Uri technotesURL = Uri.parse('https://google.com/');
+  static Uri biographyURL = Uri.parse('https://google.com/');
+  static Uri toolkitURL = Uri.parse('https://google.com/');
+  static Uri mediaURL = Uri.parse('https://google.com/');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
@@ -92,33 +103,33 @@ class DataValues {
   static const String educationDescription =
       'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2003 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
   static const String educationOrg1Title =
-      'Maliyadeva Adarsha M.V. - Sri Lanka';
-  static const String educationOrg1Course1Name = 'GCE Advanced Level';
+      'Generatons Secondary School - Pakistan';
+  static const String educationOrg1Course1Name = 'Advanced Level';
   static const String educationOrg1Course1Grade =
       'Combined Maths, Physics, and Chemistry';
-  static const String educationOrg1Course1Year = 'Attempted: 2016 & 2017';
-  static const String educationOrg1Course2Name = 'GCE Ordinary Level ';
-  static const String educationOrg1Course2Grade = 'Passed with 6A, 3B';
-  static const String educationOrg1Course2Year = '2013';
-  static const String educationOrg1Course3Name = 'Education Period';
-  static const String educationOrg1Course3Year = 'Secondary: 2008 - 2016';
-  static const String educationOrg1Course3Year2 = 'Primary: 2003 - 2007';
+  static const String educationOrg1Course1Year = 'Attempted: 2017 & 2018';
+  static const String educationOrg1Course2Name = 'Secondary Level';
+  static const String educationOrg1Course2Grade = 'Passed with B Grade';
+  static const String educationOrg1Course2Year = '2012 - 2016';
+  static const String educationOrg1Course3Name = 'Primary Level';
+  static const String educationOrg1Course3Year = 'Passed with A Grade';
+  static const String educationOrg1Course3Year2 = '2005 - 2011';
 
-  static const String educationOrg2Title = 'NIBM - Sri Lanka';
-  static const String educationOrg2Course1Name = 'BSc (Hons) Computing';
-  static const String educationOrg2Course1Grade =
-      'awarded by Coventry University, UK';
-  static const String educationOrg2Course1Year = '2022 - Ongoing';
-  static const String educationOrg2Course2Name =
-      'Higher National Diploma in Software Engineering';
-  static const String educationOrg2Course2Grade =
-      'awarded by NIBM - Sri Lanka, 4.0 GPA';
-  static const String educationOrg2Course2Year = '2020 - 2021';
-  static const String educationOrg2Course3Name =
-      'Diploma in Computer System Design';
-  static const String educationOrg2Course3Grade =
-      'awarded by NIBM - Sri Lanka, 3.75 GPA';
-  static const String educationOrg2Course3Year = '2019 - 2020';
+  static const String educationOrg2Title =
+      'Comsats University Islamabad - Pakistan';
+  static const String educationOrg2Course1Name = 'BS Computer Science';
+  static const String educationOrg2Course1Year =
+      'September 2019 - February 2023';
+  static const String educationOrg2Course1Grade = 'Graduated with 3.01 GPA';
+
+  static const String educationOrg2Course2Name = 'Initial Level';
+  static const String educationOrg2Course2Grade = 'Semester 1 - 4, 2.9 GPA';
+  static const String educationOrg2Course2Year =
+      'Programming Fundamentals, OOP, Data Structures, Databases, Computer Arc';
+  static const String educationOrg2Course3Name = 'Final Level';
+  static const String educationOrg2Course3Grade = 'Semester 5 - 8, 3.0 GPA';
+  static const String educationOrg2Course3Year =
+      'Operating Systems, AI, Game Development, Compiler, Computer Vision';
   static const String educationBanner = 'These Are Some Of My Other';
   static const String educationBannerTitle = 'Online Learning Platforms';
   static const String educationBannerWeb =
@@ -157,7 +168,7 @@ class DataValues {
   static const String mediaOrg2Role = '';
   static const String mediaOrg2Years = 'January 2024 - Present';
   static const String mediaOrg2Vales =
-      'Youtube is another platform where i try to teach techies about new & cool tricks related to develelopment';
+      'Youtube is another platform where i teach techies about new & cool tricks related to develelopment';
   static const String mediaBanner = 'Find more about my';
   static const String mediaBannerTitle = 'media';
   static const String mediaBannerWeb =
@@ -166,14 +177,15 @@ class DataValues {
   // Projects
   static const String projectsTitle = 'Projects';
   static const String projectsDescription =
-      'I love creating content as a hobby! It\'s a fantastic outlet for my creativity, and I enjoy expressing myself and connecting with people who share my interests. I have a blog where I can share my written ideas, and a vlog where my voice can be heard. It\'s a great way to connect with others and share my passion for technology and all things digital. Join me on this exciting journey of exploration and discovery in the tech world!';
-  static const String projectsOrg1Title = 'Projects by Mehdi | Blog';
+      "I began delving into project development during my studies for a BS in Computer Science, embarking on a diverse range of projects. From Android and iOS to web development, my journey has encompassed creating impactful solutions across various platforms. Some of those amazing projects are listed.";
+  static const String projectsOrg1Title =
+      'Farmsharing | Agriculture Marketplace';
   static const String projectsOrg1Role =
       'Embark on a journey of discovery and exploration.';
   static const String projectsOrg1Years = '2023 March - Present';
   static const String projectsOrg1Vales =
       'Welcome to my tech blog, where I share my tech notes! As a passionate tech enthusiast, I\'m always on the lookout for the latest and most innovative advancements in the industry, and I can\'t wait to share my findings with you. In this space, we\'ll dive deep into a variety of exciting tech topics, ranging from revolutionary software solutions to groundbreaking ideas and futuristic concepts. Along the way, I\'ll share my personal experiences and provide insights on how these developments impact our world. Join me on this exciting journey of discovery and exploration in the dynamic world of technology through this blog!';
-  static const String projectsOrg2Title = 'Projects by Mehdi | Vlog';
+  static const String projectsOrg2Title = 'P Bets | A Pretend Betting Hub';
   static const String projectsOrg2Role =
       'Exploring the frontiers of the computer world.';
   static const String projectsOrg2Years = 'Coming Soon';

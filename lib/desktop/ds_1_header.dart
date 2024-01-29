@@ -8,7 +8,7 @@ import '../widgets/social_profiles.dart';
 class DS1Header extends StatelessWidget {
   const DS1Header({Key? key}) : super(key: key);
 
-  List<Widget> headerData() {
+  List<Widget> headerData(context) {
     return [
       Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
       const SizedBox(width: 60.0),
@@ -43,7 +43,7 @@ class DS1Header extends StatelessWidget {
             children: [
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
-                children: headerData(),
+                children: headerData(context),
               ),
               const SizedBox(height: 60.0),
               NavBar().desktopNavBar(),

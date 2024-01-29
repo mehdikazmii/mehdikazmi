@@ -7,8 +7,8 @@ import '../widgets/container_banner.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class DS5Media extends StatelessWidget {
-  const DS5Media({Key? key}) : super(key: key);
+class DS7Media extends StatelessWidget {
+  const DS7Media({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -34,22 +34,22 @@ class DS5Media extends StatelessWidget {
                     role: DataValues.mediaOrg1Role,
                     years: DataValues.mediaOrg1Years,
                     values: DataValues.mediaOrg1Vales,
-                    message: DataValues.linkedinURL.toString(),
-                    url: DataValues.linkedinURL,
+                    message: DataValues.instagramURL.toString(),
+                    url: DataValues.instagramURL,
                     isButtonEnabled: true,
                   ),
                 ),
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'youtube',
+                    image: 'Youtube',
                     title: DataValues.mediaOrg2Title,
                     role: DataValues.mediaOrg2Role,
                     years: DataValues.mediaOrg2Years,
                     values: DataValues.mediaOrg2Vales,
-                    message: DataValues.linkedinURL.toString(),
-                    url: DataValues.linkedinURL,
-                    isButtonEnabled: true,
+                    message: DataValues.instagramURL.toString(),
+                    url: DataValues.instagramURL,
+                    isButtonEnabled: false,
                   ),
                 ),
               ],

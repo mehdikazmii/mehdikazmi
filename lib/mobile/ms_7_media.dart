@@ -7,8 +7,8 @@ import '../widgets/container_banner.dart';
 import '../widgets/container_card.dart';
 import '../widgets/frame_title.dart';
 
-class MS5Media extends StatelessWidget {
-  const MS5Media({Key? key}) : super(key: key);
+class MS7Media extends StatelessWidget {
+  const MS7Media({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
